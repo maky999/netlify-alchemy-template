@@ -1,32 +1,32 @@
-# CW3D NFT Explorer For Netlify
+# CW3D NFT Explorer Dành Cho Netlify
 
-This boilerplate is set up to be deployed on Netlify and you can directly deploy this project by clicking the button below:
+Bản mẫu này được thiết lập để triển khai trên Netlify và bạn có thể triển khai trực tiếp dự án này bằng cách nhấn vào nút bên dưới:
 
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/alchemyplatform/netlify-alchemy-nft-explorer-template)
-
+[![Triển khai trên Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/alchemyplatform/netlify-alchemy-nft-explorer-template)
 
 ![image](https://user-images.githubusercontent.com/72762629/235919616-ba92fb9e-c171-4d7f-a928-862c80009075.png)
 
-## Resources
-Please refer to CW3D's documentation and the following useful links for an in depth explanation of how to work with projects bootstrapped with CW3D:
+## Tài nguyên
 
--   [Docs](https://docs.alchemy.com/docs/create-web3-dapp) - Everything you need to know when using CW3D
--   [GitHub](https://github.com/alchemyplatform/create-web3-dapp) - look at the extensive code example or start contributing
--   [Website](https://createweb3dapp.alchemy.com) - Learn more about CW3D and add components to your project
--   [Templates](https://createweb3dapp.alchemy.com/#templates) - Check out the pre-built project templates
--   [Components Library](https://createweb3dapp.alchemy.com/#components) - Add features directly to your project through components
--   [Examples](https://github.com/alchemyplatform/create-web3-dapp-examples) - See the components implemented in a real world dapp
--   [Community](https://t.me/createweb3dapp) - Meet other builders, get support, and give feedback!
+Vui lòng tham khảo tài liệu của CW3D và các liên kết hữu ích sau để tìm hiểu sâu hơn về cách làm việc với các dự án khởi tạo bằng CW3D:
 
-## Overview
+- [Tài liệu](https://docs.alchemy.com/docs/create-web3-dapp) - Mọi thứ bạn cần biết khi sử dụng CW3D
+- [GitHub](https://github.com/alchemyplatform/create-web3-dapp) - Xem ví dụ mã chi tiết hoặc bắt đầu đóng góp
+- [Website](https://createweb3dapp.alchemy.com) - Tìm hiểu thêm về CW3D và thêm các thành phần vào dự án của bạn
+- [Mẫu dự án](https://createweb3dapp.alchemy.com/#templates) - Xem các mẫu dự án được xây dựng sẵn
+- [Thư viện thành phần](https://createweb3dapp.alchemy.com/#components) - Thêm tính năng trực tiếp vào dự án của bạn thông qua các thành phần
+- [Ví dụ](https://github.com/alchemyplatform/create-web3-dapp-examples) - Xem các thành phần được triển khai trong một dApp thực tế
+- [Cộng đồng](https://t.me/createweb3dapp) - Kết nối với những nhà phát triển khác, nhận hỗ trợ và đưa ra phản hồi!
 
-This project serves as a starting point for creating decentralized NFT Explorer (dApps) using [Create Web3 Dapp](https://github.com/alchemyplatform/create-web3-dapp). It is preconfigured to be deployed on [Netlify](https://www.netlify.com/), providing you with a seamless way to get your dApp up and running in no time.
+## Tổng quan
 
-This boilerplate is built using [CW3D (Create Web3 Dapp)](https://github.com/alchemyplatform/create-web3-dapp), a powerful tool developed by [Alchemy](https://www.alchemy.com/) that allows developers to rapidly create and deploy dApps.
+Dự án này đóng vai trò là điểm khởi đầu để tạo các ứng dụng phi tập trung (dApp) khám phá NFT bằng [Create Web3 Dapp](https://github.com/alchemyplatform/create-web3-dapp). Nó được cấu hình sẵn để triển khai trên [Netlify](https://www.netlify.com/), giúp bạn dễ dàng đưa dApp của mình vào hoạt động một cách nhanh chóng.
 
-## What's Included?
+Bản mẫu này được xây dựng bằng [CW3D (Create Web3 Dapp)](https://github.com/alchemyplatform/create-web3-dapp), một công cụ mạnh mẽ được phát triển bởi [Alchemy](https://www.alchemy.com/) giúp các nhà phát triển nhanh chóng tạo và triển khai dApp.
 
-This boilerplate has everything you need to start building a dapp:
+## Bao gồm những gì?
+
+Bản mẫu này có mọi thứ bạn cần để bắt đầu xây dựng dApp:
 
 - Next.js
 - Wagmi Hooks
@@ -34,72 +34,41 @@ This boilerplate has everything you need to start building a dapp:
 - Rainbowkit
 - Alchemy SDK
 
-## Supported Chains
+## Các chuỗi hỗ trợ
 
-The project supports all the major EVM chains:
+Dự án hỗ trợ tất cả các chuỗi EVM chính:
 
- - Ethereum
- - Polygon
- - Arbitrum
- - Optimism
+- Ethereum
+- Polygon
+- Arbitrum
+- Optimism
 
-## Getting Started
+## Bắt đầu
 
-### Prerequisites
+### Yêu cầu
 
-To get started with this boilerplate, you'll need to have the following software installed on your local machine:
+Để bắt đầu với bản mẫu này, bạn cần cài đặt các phần mềm sau trên máy của mình:
 
 - [Node.js](https://nodejs.org/)
 - [Yarn](https://yarnpkg.com/)
 - [Git](https://git-scm.com/)
 
-### Installation
+### Cài đặt
 
-1. Clone the repository to your local machine:
-   ```
+1. Sao chép kho lưu trữ về máy của bạn:
+   ```bash
    git clone https://github.com/alchemyplatform/netlify-alchemy-nft-explorer-template
-   ```
-2. Navigate to the project directory:
-   ```
-   cd netlify-alchemy-nft-explorer-template
-   ```
-3. Install the required dependencies:
-   ```
-   yarn install
-   ```
 
-### Running the Project
+cd netlify-alchemy-nft-explorer-template
 
-1. Start the local development server:
-   ```
-   yarn run dev
-   ```
-2. Open your browser and navigate to [`http://localhost:3000/`](http://localhost:3000/) to view the dApp in action.
+yarn install
 
-### Deploying to Netlify
+npm install -g netlify-cli
 
-This boilerplate is set up to be deployed on Netlify and you can directly deploy this project by clicking the button below:
+netlify deploy
 
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/alchemyplatform/netlify-alchemy-dapp-boilerplates)
+**Cấu trúc dự án**
 
- If you prefer to deploy it manually, you can follow these steps:
-
-1. Sign up for a Netlify account at [netlify.com](https://www.netlify.com/) if you don't already have one.
-2. Install the Netlify CLI:
-   ```
-   npm install -g netlify-cli
-   ```
-3. Run the following command to deploy your dApp to Netlify:
-   ```
-   netlify deploy
-   ```
-4. Follow the prompts and provide the required information. Your dApp will be deployed and accessible via a unique URL.
-
-## Project Structure
-
-The boilerplate consists of one root directory:
-
-```
 📦root
  ┣ 📂components
  ┃ ┣ 📂navigation
@@ -125,6 +94,4 @@ The boilerplate consists of one root directory:
  ┣ 📜README.md
  ┣ 📜package-lock.json
  ┗ 📜package.json
-```
 
-Start editing the `pages/index.jsx` file in the root directory to customize the project according to your own needs!
